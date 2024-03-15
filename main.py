@@ -33,6 +33,6 @@ if __name__ == "__main__":
     print(f"{'-'*80}")
     print(f"{'Aлгоритм':^35} | {'Час виконання':^13} | {'Результат':^}")
     print(f"{'-'*80}")
-    print(f"{'Жадібний алгоритм':<35} | {greedy_time / 100:^13.10f} | {str(greedy_result)}")
-    print(f"{'Алгоритм динамічного програмування':<35} | {dynamic_time / 100:^13.10f} | {str(dynamic_result)}")
+    print(f"{'Жадібний алгоритм':<35} | {greedy_time:^13.10f} | {str(greedy_result)}")
+    print(f"{'Алгоритм динамічного програмування':<35} | {dynamic_time:^13.10f} | {str(dynamic_result)}")
     print('\n')
